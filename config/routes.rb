@@ -1,4 +1,6 @@
 Hate2wait::Application.routes.draw do
+  devise_for :users
+
   resources :seats
 
   resources :locations
